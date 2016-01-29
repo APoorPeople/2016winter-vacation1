@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define arrayLength 5
+int main()
+{
+    char a[arrayLength];
+    int b=0;
+    for(b=0;b<5;b++)
+    {
+        scanf("%c",&a[b]);
+    }
+    for(b=0;b<5;b++)
+    {
+        a[b]+=4;
+    }
+    for(b=0;b<5;b++)
+    {
+        printf("%c",a[b]);
+    }
+    return 0;
+}
