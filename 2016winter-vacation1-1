@@ -1,0 +1,35 @@
+#include<stdio.h>
+ int main(){
+    float r,h,C1,Sa,Sb,Va,Vb;
+    double pi=3.14;
+    while(scanf("%f %f",&r,&h)!=EOF){
+        C1=2*pi*r;
+        Sa=pi*r*r;
+        Sb=4*pi*r*r;
+        Va=4.0/3*pi*r*r*r;
+        Vb=pi*r*r*h;
+        printf("C1=%.2f\nSa=%.2f\nSb=%.2f\nVa=%.2f\nVb=%.2f\n",C1,Sa,Sb,Va,Vb);}
+    return 0;
+}
+、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、
+#include <stdio.h>
+#define PI 3.14
+
+int main()
+{
+    float r;
+    float h;
+    float C1;
+    float Sa;
+    float Sb;
+    float Va;
+    float Vb;
+    scanf("%f %f",&r,&h);
+    C1=PI*2*r;
+    Sa=PI*r*r;
+    Sb=4*PI*r*r;
+    Va=(4/3)*PI*r*r*r;
+    Vb=PI*r*r*h;
+    printf("C1=%.2f\nSa=%.2f\nSb=%.2f\nVa=%.2f\nVb=%.2f\n",C1,Sa,Sb,Va,Vb);
+    return 0;
+}
